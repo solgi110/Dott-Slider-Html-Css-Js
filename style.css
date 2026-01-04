@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 700px;
+  transform: translateY(50%);
+  overflow: hidden;
+
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: red;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.leftBtn {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.rightBtn {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+
+}
+
+.bildContainer {
+  width: 700px;
+  display: flex;
+  overflow: hidden;
+
+}
+
+.bildContainer img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+
+}
+
+.img-slider {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+
+}
+.dotContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin: 0 4px;
+
+}
+
+.dot.active {
+  background-color: grey;
+}
