@@ -48,7 +48,7 @@ Slide.forEach((item, index) => {
   index = dot
 
   if (index == 0) {
-    dot[0].classList.add('active')
+    dot.classList.add('active')
   }
 
   dotContainer.appendChild(dot)
